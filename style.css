@@ -1,61 +1,57 @@
-h1{      color:#8B4513;
-        text-align: center;
-        
-}
- body {
-
-     text-align: center;
+body {
     background-color: white;
     margin: 0;
     padding: 50px;
+    font-family: Arial, sans-serif;
 }
 
-.centered-image {
+/* Titres */
+h1 {
+    color: #8B4513;
     text-align: center;
-    width:50%;
-     height: 250px;
-    left: 50px;
-    right: 50px;
-    top:5px;
-    bottom: 5px ;
+}
+
+/* Images centrées */
+.centered-image {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    height: 250px;
     object-fit: cover;
-    border: 2px solid #333; /* Bordure simple */
-    border-radius: 0; /* Rectangle parfait */
+    border: 2px solid #333;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 }
-p {
-    margin: 0;
-    text-align: center;
+
+/* Conteneur du menu */
+.menu-section {
     width: 60%;
-     
-    
-   
+    margin: 0 auto;
 }
-    
 
+/* Paragraphes */
+.menu-section p {
+    margin: 5px 0;
+    text-align: justify;
+}
+
+/* Prix */
 .item-price {
-            color:#8B4513;
-            text-align:right;
-            width: 65%;
-            
-           
+    color: #8B4513;
+    text-align: right;
+    margin-bottom: 15px;
 }
 
-.div-para{
-    text-align: center;
-    background-color:#8B4513 ;
-    color: white;
+/* Bouton réservation */
+.div-para {
+    background-color:red;
     width: 40%;
-    height: 25px;
-    font-weight:100px ;
-    position: absolute;
-    left: 30%;
-    right: 30%;
-    
-    
-}
-a{ 
-    color:white;
-    text-decoration: none;
+    margin: 40px auto;
+    padding: 10px;
     text-align: center;
+}
+
+.div-para a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
